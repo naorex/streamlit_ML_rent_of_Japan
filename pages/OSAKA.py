@@ -44,13 +44,13 @@ markdown_osaka = '''
 '''
 st.write(markdown_osaka)
 
-st.subheader('家賃予測に必要な変数を入力')
+st.subheader('家賃推定に必要な変数を入力')
 
-with st.form('家賃予測フォーム'):
+with st.form('家賃推定フォーム'):
 
     # エリアを選択
     area_select_osa = st.selectbox(
-                    '家賃予測するエリアを選択',
+                    '家賃推定するエリアを選択',
                     ('大阪市中央区',
                     '大阪市西区',
                     '大阪市北区',

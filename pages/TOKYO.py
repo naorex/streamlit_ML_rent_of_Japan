@@ -43,13 +43,13 @@ markdown_tokyo = '''
 '''
 st.write(markdown_tokyo)
 
-st.subheader('家賃予測に必要な変数を入力')
+st.subheader('家賃推定に必要な変数を入力')
 
-with st.form('家賃予測フォーム'):
+with st.form('家賃推定フォーム'):
 
     # エリアを選択
     area_select_tok = st.selectbox(
-                    '家賃予測するエリアを選択',
+                    '家賃推定するエリアを選択',
                     ('港区',
                     '渋谷区',
                     '千代田区',

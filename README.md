@@ -10,4 +10,4 @@ RandomForest による機械学習モデル
 - 広島8区
 
 動作アプリURL
-https://chintaiyosoku.streamlit.app/
+https://yachinsuitei.streamlit.app/

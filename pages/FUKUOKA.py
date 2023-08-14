@@ -27,13 +27,13 @@ markdown_fukuoka = '''
 '''
 st.write(markdown_fukuoka)
 
-st.subheader('家賃予測に必要な変数を入力')
+st.subheader('家賃推定に必要な変数を入力')
 
-with st.form('家賃予測フォーム'):
+with st.form('家賃推定フォーム'):
 
     # エリアを選択
     area_select_fuk = st.selectbox(
-                    '家賃予測するエリアを選択',
+                    '家賃推定するエリアを選択',
                     ('福岡市中央区',
                     '福岡市博多区',
                     '福岡市早良区',

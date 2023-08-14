@@ -36,13 +36,13 @@ markdown_nagoya = '''
 '''
 st.write(markdown_nagoya)
 
-st.subheader('家賃予測に必要な変数を入力')
+st.subheader('家賃推定に必要な変数を入力')
 
-with st.form('家賃予測フォーム'):
+with st.form('家賃推定フォーム'):
 
     # エリアを選択
     area_select_nago = st.selectbox(
-                    '家賃予測するエリアを選択',
+                    '家賃推定するエリアを選択',
                     ('名古屋市中区',
                     '名古屋市東区',
                     '名古屋市中村区',
