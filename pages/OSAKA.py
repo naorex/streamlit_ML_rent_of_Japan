@@ -116,7 +116,7 @@ with st.form('家賃予測フォーム'):
 if submit_btn:
 
     # 学習済みモデルを読込
-    filename_path_osa = dir_path + '\\' + model_dict_osa[area_select_osa]
+    filename_path_osa = dir_path + '/' + model_dict_osa[area_select_osa]
     model_load_osa = pickle.load(open(filename_path_osa, 'rb'))
 
     # 予測結果を表示

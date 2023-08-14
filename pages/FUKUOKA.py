@@ -82,7 +82,7 @@ with st.form('家賃予測フォーム'):
 if submit_btn:
 
     # 学習済みモデルを読込
-    filename_path_fuk = dir_path + '\\' + model_dict_fuk[area_select_fuk]
+    filename_path_fuk = dir_path + '/' + model_dict_fuk[area_select_fuk]
     model_load_fuk = pickle.load(open(filename_path_fuk, 'rb'))
 
     # 予測結果を表示

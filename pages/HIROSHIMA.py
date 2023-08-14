@@ -84,7 +84,7 @@ with st.form('家賃予測フォーム'):
 if submit_btn:
 
     # 学習済みモデルを読込
-    filename_path_hiro = dir_path + '\\' + model_dict_hiro[area_select_hiro]
+    filename_path_hiro = dir_path + '/' + model_dict_hiro[area_select_hiro]
     model_load_hiro = pickle.load(open(filename_path_hiro, 'rb'))
 
     # 予測結果を表示
