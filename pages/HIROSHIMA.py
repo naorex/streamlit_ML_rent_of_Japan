@@ -24,7 +24,8 @@ model_dict_hiro = {model_list_hiro[0].split('_')[5]: model_list_hiro[0],
 
 # 表記内容
 markdown_hiroshima = '''
-学習データ基準月: 2023-07
+学習データ基準月: 2023-07\n
+（注）新築物件は学習から除外
 '''
 st.write(markdown_hiroshima)
 
