@@ -8,6 +8,9 @@ RandomForest による機械学習モデル
 - 名古屋16区
 - 福岡7区
 - 広島8区
+- 神戸9区
+- 仙台5区
+- 札幌10区
 
 動作アプリURL
 https://yachinsuitei.streamlit.app/
