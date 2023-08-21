@@ -23,8 +23,7 @@ model_dict_fuk = {model_list_fuk[0].split('_')[5]: model_list_fuk[0],
 
 # 表記内容
 markdown_fukuoka = '''
-学習データ基準月: 2023-07\n
-（注）新築物件は学習から除外
+学習データ基準月: 2023-07
 '''
 st.write(markdown_fukuoka)
 
@@ -46,6 +45,10 @@ with st.form('家賃推定フォーム'):
 
     # 築年数を入力
     val1_fuk = st.slider('築年数', min_value=1, max_value=50)
+    age_explanation = '''
+    【築年数】新築物件は学習から除外しています。
+    '''
+    st.caption(age_explanation)
 
     # 間取り分類を入力
     val2_fuk = st.slider('間取り分類', min_value=0, max_value=5)
