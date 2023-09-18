@@ -23,7 +23,7 @@ model_dict_fuk = {model_list_fuk[0].split('_')[5]: model_list_fuk[0],
 
 # 表記内容
 markdown_fukuoka = '''
-学習データ基準月: 2023-07
+学習データ基準月: 2023-09
 '''
 st.write(markdown_fukuoka)
 

@@ -39,7 +39,7 @@ model_dict_tok = {model_list_tok[0].split('_')[5]: model_list_tok[0],
 
 # 表記内容
 markdown_tokyo = '''
-学習データ基準月: 2023-07
+学習データ基準月: 2023-09
 '''
 st.write(markdown_tokyo)
 
